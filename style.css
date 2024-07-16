@@ -2,3 +2,42 @@
     padding: 0;
     margin: 0;
 }
+.container{
+    width:90%;
+    margin: auto;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.navBar-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 225px;
+}
+.navBar-logo h3{
+    font-size: 27px;
+}
+.navBar-logo span{
+    color: #FF5400;
+}
+.navBar-link ul{
+    display: flex;
+}
+.navBar-link ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 13px;
+    font-size: 22px;
+    color: black;
+
+
+}
+.navBar-link .first{
+    color: #FF5400;
+}
+.navBar-link ul li{
+    list-style: none;
+}
