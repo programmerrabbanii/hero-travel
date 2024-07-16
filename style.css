@@ -5,6 +5,7 @@
 .container{
     width:90%;
     margin: auto;
+    border-radius: 8px;
 }
 .navBar{
     display: flex;
@@ -41,3 +42,46 @@
 .navBar-link ul li{
     list-style: none;
 }
+/* navbar section end */
+/* bannar sectin start */
+.bannar{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8)
+     0% rgba(19, 19,24, 0) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+     background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color: white;
+     padding: 100px 0;
+
+     
+}
+.bannar-inner{
+    text-align: center;
+}
+.bannar-inner h3{
+    font-size: 45px;
+    line-height: 2;
+}
+.bannar-inner p{
+    
+}
+.input-types{
+    margin-top: 25px !important;
+    background-color: rgba(170, 163, 163, 0.6);
+    padding: 10px;
+    width: 700px;
+    margin: 0 auto;
+}
+.input-types input, select, button{
+    padding: 14px;
+    border: none;
+    text-transform: capitalize;
+}
+.input-types button{
+    background-color: #FF5400;
+    padding: 14px;
+    color: white;
+    text-transform: capitalize;
+}
+
