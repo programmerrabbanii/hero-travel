@@ -395,6 +395,30 @@
    
    
 }
+ /* news letter section end here */
+/* foote section start  here */
+.footerr{
+    margin-top: 50px;
+    padding: 40px;
+    text-align: center;
+    background-color: #F3f3F3;
+}
+.foote-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.foote-logo span{
+    color: #FF5400;
+}
+.foote-logo h4{
+    font-size: 30px;
+}
 
-.newsletter-rights h5{}
+.footer-icon{
+    margin-right: 9px;
+    font-size: 20px;
+    line-height: 2;
+}
 
