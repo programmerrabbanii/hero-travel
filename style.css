@@ -84,4 +84,31 @@
     color: white;
     text-transform: capitalize;
 }
+/* bannar section end */
+/* popular section start */
+.popular{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 60px;
+    align-items: center;
+}
+.popular-left h3{
+    font-size: 40px;
+    line-height: 2;
+
+}
+.popular-left ul li{
+    margin-top: 16px;
+    margin-right: -20px;
+}
+.popular-left button{
+    color: white;
+    background-color: #FF5400;
+    padding: 14px 23px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
 
