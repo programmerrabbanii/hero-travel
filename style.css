@@ -110,5 +110,68 @@
     margin-top: 15px;
 
 }
+/* popular section end */
+/* destination section start */
+.destination{
+    margin-top: 90px;
+}
+.destination-title{
+    text-align:center;
+    margin-bottom: 50px;
+}
+.destination-title h2{
+    font-size: 45px;
+}
+.destination-top{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 30px;
+    margin: 10px;
+}
+.destination-top img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+.destination-top-left, .destination-rights{
+    position: relative;
+}
+
+.title-maldive, .title-indonesia{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.destination-middel{
+   display: grid;
+   grid-template-columns: 0.81fr 1fr 0.71fr;
+   gap: 20px;
+   margin: 10px;
+}
+.destination-middel img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+.destination-bottom{
+    display: grid;
+    grid-template-columns: 0.51fr 0.71fr;
+    gap: 20px;
+    margin: 10px;
+}
+
+.destination-bottom img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+
+    
+}
+/* destination section end */
+/* why choose section start here */
 
 
