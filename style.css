@@ -173,5 +173,56 @@
 }
 /* destination section end */
 /* why choose section start here */
+.choose{
+    margin-top: 69px;
 
+}
+.choose-title h2{
+    text-align: center;
+    font-size: 46px;
+    line-height: 2;
+}
+.choose p{
+    text-align: center;
+}
+.choose-parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 90px;
+   
+}
+.choose-left{
+    padding: 20px;
+    background-color: #FFFBF7;
+    border-radius: 5px;
+    border: 5px solid #e7e2dd;
+
+    
+}
+.fa-solid {
+    font-size: 50px;
+    line-height: 1;
+}
+.choose-rights{
+    background-color: #F4FDFF;
+    padding: 20px;
+    border-radius: 5px;
+    border: 5px solid #cddde1;
+}
+.choose-left h4{
+    font-size: 26px;
+    line-height: 2;
+}
+.choose-rights h4{
+    font-size: 26px;
+    line-height: 2;
+}
+.choose-bottom{
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+.choose-left{}
 
