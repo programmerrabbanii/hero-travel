@@ -173,10 +173,7 @@
 }
 /* destination section end */
 /* why choose section start here */
-.choose{
-    margin-top: 69px;
 
-}
 .choose-title h2{
     text-align: center;
     font-size: 46px;
@@ -200,10 +197,12 @@
 
     
 }
-.fa-solid {
-    font-size: 50px;
-    line-height: 1;
-}
+ .choose-left .fa-solid{
+    font-size: 40px;
+ }
+ .choose-rights .fa-solid{
+    font-size: 40px;
+ }
 .choose-rights{
     background-color: #F4FDFF;
     padding: 20px;
@@ -224,5 +223,119 @@
     margin-top: 15px;
 
 }
-.choose-left{}
+/* why choose section end */
+/* discount section start */
+.discount {
+    margin-top: 80px;
+}
+.discount-scheet{
+    background-image: url(./Images/Group\ 39.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+}
+.discount-scheet-mid{
+    background-image: url(./Images/Group\ 40.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px;
+
+}
+.discount-inner-titel h4{
+    color: #FF5400;
+    line-height: 2;
+}
+.discount-inner-titel h3{
+    line-height: 2;
+    font-weight: 500;
+}
+.discount-inner-titel button{
+    background-color: #FF5400;
+    color: white;
+    padding: 13px 23px;
+    border-radius: 8px;
+
+}
+.discount-title > h3{
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+}
+.discount-title p{
+    text-align: center;
+}
+
+.discount-inner{
+    width: 350px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.615);    
+}
+
+.discount-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 11px;
+    
+}
+.discount-icon .fa-solid{
+    color: #FF5400;
+}
+.discount-icon .fa-regular{
+    color: #FF5400;
+}
+.discount-inner{
+    border-radius: 10px;
+}
+.discount-icon li{
+    list-style: none;
+}
+.btn {
+    text-align: center;
+    margin-top: 40px;
+
+}
+.btn button{
+    background-color: #FF5400;
+    color: white;
+    border-radius: 6px;
+
+}
+/* discount section end here */
+/* perfect section start here */
+.perfect{
+    margin-top: 90px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.perfect-left h3{
+    font-size: 44px;
+    font-weight: 500;
+}
+.perfect-left p{
+    margin-top: 10px;
+}
+.perfect-left li{
+    margin-top: 10px;
+}
+.perfect-left button{
+    background-color: #FF5400;
+    color: white;
+    margin-top: 14px;
+    border-radius: 5px;
+
+}
+/* perfect section end here */
+/* Newsletter section start */
 
